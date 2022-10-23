@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-shadow: border-box;
+    font:inherit;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.circle-border {
+    width: 400px;
+    height: 400px;
+}
+
+.timer {
+    position:absolute;
+    display: inline-block;
+}
+
+.controls {
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer button {
+    border:none;
+    background:white;
+    font-size: 40px;
+    margin-left:10px;
+ }
+
+ .timer input {
+    display: block;
+    border:none;
+    text-align:center;
+    font-size: 90px;
+    width:240px;
+ }
+
+ .timer input:focus {
+    border: none;
+ }
+
+ .timer button:hover {
+    cursor: pointer;
+ }
